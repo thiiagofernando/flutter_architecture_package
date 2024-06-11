@@ -44,9 +44,11 @@ packages:
   bytebank_balance:
     dependency: "direct main"
     description:
-      path: "packages/bytebank_balance"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "0963bcc42f479bbc6e8013d82e1de20390a26e89"
+      url: "https://github.com/thiiagofernando/bytebank_balance.git"
+    source: git
     version: "0.0.1"
   characters:
     dependency: transitive
